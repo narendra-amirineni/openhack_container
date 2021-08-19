@@ -19,6 +19,14 @@ Challenge five requires namespaces and seperating the deploys. The existing depl
 - create namespace
 ```
 kubectl create namespace [name]
+
+hacker@Azure:~$ kubectl create namespace api
+namespace/api created
+hacker@Azure:~$ kubectl create namespace web
+namespace/web created
+hacker@Azure:~$ kubectl create namespace ingress-ns
+namespace/ingress-ns created
+hacker@Azure:~$
 ```
 - To deploy pod to cluster under a namepsace
 ```
